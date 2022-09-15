@@ -13,6 +13,8 @@
 
 .Home img {
   width: 500px;
+  right: 0;
+  bottom: 0;
 }
 
 .Home .left {
@@ -34,16 +36,4 @@
   padding: 1em .5em;
   width: 30%;
 }
-
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background: #eee;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
-}
-/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=Home.css.map */

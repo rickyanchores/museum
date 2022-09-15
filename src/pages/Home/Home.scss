@@ -1,0 +1,28 @@
+.Home{
+    border: black 5px solid;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    img{
+        width: 500px;
+        right: 0;
+        bottom: 0;
+    }
+    .left{
+        display: flex;
+        flex-direction: column;
+        //justify-content: center;
+        //align-items: center;
+        padding: 5em;
+        font-size: 30px;
+        .btn{
+            background: black;
+            color: whitesmoke;
+            border: none;
+            padding: 1em .5em;
+            width: 30%;
+        }
+    }
+}
+
