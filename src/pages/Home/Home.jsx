@@ -8,8 +8,9 @@ const Home = () => {
   return (
     <div className='Home'>
         <div className="left">
-            <h1>A Picture Is A Poem</h1>
-            <h1>Without Words</h1>
+            <h1>A Picture Is A Poem
+                Without Words
+            </h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, vel iure doloremque pariatur dignissimos quis.</p>
             <button className='btn'>Read More</button>
         </div>
