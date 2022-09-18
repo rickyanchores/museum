@@ -1,5 +1,5 @@
 .Home{
-    border: black 5px solid;
+    //border: black 5px solid;
     height: 100vh;
     display: flex;
     justify-content: space-around;
@@ -15,6 +15,9 @@
         //align-items: center;
         padding: 5em;
         font-size: 30px;
+        p{
+            font-size: 20px;
+        }
         .btn{
             background: black;
             color: whitesmoke;

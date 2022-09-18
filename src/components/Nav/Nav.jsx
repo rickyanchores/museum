@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Nav = () => {
 
@@ -20,11 +21,11 @@ const Nav = () => {
 
   return (
     <div className='Nav'>
-        <h1>Nav</h1>
+        <h1>mus</h1>
         <div className="navlinks">
             {navList.map((link) => {
                 return(
-                    <li to={link.href}>{link.name}</li>
+                    <Link className='link' to={link.href}>{link.name}</Link>
                 )
             })}
         </div>

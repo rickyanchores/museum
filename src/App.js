@@ -1,5 +1,6 @@
 import React from "react";
 import {BrowserRouter as Router,Route,Routes} from "react-router-dom"
+import Banner from "./components/Banner/Banner";
 
 
 import Nav from "./components/Nav/Nav";
@@ -15,6 +16,7 @@ const App = () => {
           <Route component={Home} />
         </Routes>
         <Home />
+        <Banner />
         <Gallery />
         <Footer />
     </Router>

@@ -1,0 +1,10 @@
+.Gallery{
+    background: silver;
+    text-align: center;
+    padding: 5em;
+    .CardContainer{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+}

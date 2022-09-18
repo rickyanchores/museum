@@ -1,12 +1,13 @@
 @import "../src/pages/Home/Home.scss";
 @import "../src/components/Nav/Nav.scss";
-
-
+@import "../src/pages/Gallery/Gallery.scss";
+@import "../src/components/Banner/Banner.scss";
+@import "../src/components/Card/Card.scss";
+// FONT
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Comfortaa', cursive;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: #eee;
