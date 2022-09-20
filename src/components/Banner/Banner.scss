@@ -1,4 +1,21 @@
 .Banner{
-    background: #333;
-    padding: 3em;
+    .container{
+        padding-top: 2em;
+        padding-bottom: 2em;
+        display: flex;
+        justify-items: space-around;
+        align-items: center;
+        img{
+            width: 70%;
+        }
+        .text{
+            font-size: 2em;
+            text-transform: uppercase;
+            font-weight: bolder;
+            color: gray;
+        }
+
+    }
+
+    //padding: 3em;
 }
