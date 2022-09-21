@@ -5,16 +5,30 @@
     justify-content: space-around;
     align-items: center;
     img{
-        width: 600px;
-        padding-top: 15em;
+        width: 800px;
+        //padding-top: 15em;
+    }
+    .contacts-snippet{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        text-align: end;
+        margin-top: 5em;
+        padding: 5em;
+        //border: 1px red solid;
+        .li{
+            padding: 1em;
+            color: silver;
+            font-size: 20px;
+        }
     }
     .left{
         display: flex;
         flex-direction: column;
-        //justify-content: center;
-        //align-items: center;
-        padding: 5em;
+        justify-content: center;
+        align-items: flex-start;
         font-size: 30px;
+        padding: 5em;
         p{
             font-size: 20px;
         }
