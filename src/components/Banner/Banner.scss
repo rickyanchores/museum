@@ -1,12 +1,13 @@
 .Banner{
+    padding-top: 10em;
+    padding-bottom: 10em;
     .container{
-        padding-top: 2em;
-        padding-bottom: 2em;
         display: flex;
         justify-items: space-around;
         align-items: center;
         img{
             width: 70%;
+            height: 100%;
             padding: 2em 0 2em 0;
         }
         .text{
@@ -16,8 +17,5 @@
             color: gray;
             margin-left: -6em;
         }
-
     }
-
-    //padding: 3em;
 }
