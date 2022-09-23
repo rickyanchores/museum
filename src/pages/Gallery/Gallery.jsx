@@ -2,16 +2,13 @@ import React from 'react'
 import Card from '../../components/Card/Card';
 //IMPORT IMAGES
 
-import statue from "../../images/statue.avif";
-import busto from "../../images/busto.avif";
+
 import pharoah from "../../images/pharoah.avif";
 const Gallery = (props) => {
     return (
         <div className='Gallery'>
-            <h1>Gallery</h1>
+            <div className="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa exercitationem veniam facere beatae pariatur delectus.</div>
             <div className="CardContainer">
-                <Card image={statue}/>
-                <Card image={busto}/>
                 <Card image={pharoah}/>
             </div>
         </div>

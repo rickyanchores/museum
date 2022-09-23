@@ -1,6 +1,6 @@
 import React from 'react'
 
-//
+// IMPORT
 import busto from "../../images/busto.avif";
 
 const Banner = () => {

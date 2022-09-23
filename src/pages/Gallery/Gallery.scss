@@ -1,7 +1,16 @@
 .Gallery{
-    background: silver;
+    //background: silver;
     text-align: center;
     height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    .text{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
     .CardContainer{
         display: flex;
         justify-content: space-around;
