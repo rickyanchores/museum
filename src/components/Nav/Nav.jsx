@@ -25,11 +25,10 @@ const Nav = () => {
         <div className="navlinks">
             {navList.map((link) => {
                 return(
-                    <Link className='link' to={link.href}>{link.name}</Link>
+                    <Link className="link" to={link.href}>{link.name}</Link>
                 )
             })}
         </div>
-        <div className="hamburger">X</div>
     </div>
   )
 }

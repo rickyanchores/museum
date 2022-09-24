@@ -1,10 +1,21 @@
 import React from 'react'
 
+//IMPORT IMAGE
+
+import SoloScreen from "../../images/soloscreen.avif";
+
 const Footer = () => {
   return (
     <div className='Footer'>
-        <h1>Footer</h1>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum, earum.</p>
+        <div className="f-container">
+          <img src={SoloScreen} alt="" />
+          <div className="contacts-snippet">
+          <div className="li">Facebook</div>
+            <div className="li">Twitter</div>
+            <div className="li">Gmail</div>
+          </div>
+        </div>
+        <p>Developed by Ricky A 2023</p>
     </div>
   )
 }

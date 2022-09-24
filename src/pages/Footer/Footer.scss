@@ -1,0 +1,23 @@
+.Footer{
+    background: black;
+    color: whitesmoke;
+    p{
+        text-align: end;
+    }
+    .f-container{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        img{
+            width: 50%;
+            padding: 5em;
+        }
+        .contacts-snippet{
+            .li{
+                padding: 1em;
+                text-transform: uppercase;
+            }
+        }
+    }
+
+}
