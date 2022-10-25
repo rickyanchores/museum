@@ -7,7 +7,7 @@ import pharoah from "../../images/pharoah.avif";
 const Gallery = (props) => {
     return (
         <div className='Gallery'>
-            <div className="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa exercitationem veniam facere beatae pariatur delectus.</div>
+            <div className="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ipsum itaque quos culpa aperiam veniam explicabo quia pariatur minus temporibus, sit nesciunt, eligendi repellendus fugiat!</div>
             <div className="CardContainer">
                 <Card image={pharoah}/>
             </div>

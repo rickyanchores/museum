@@ -15,7 +15,8 @@ const Collection = () => {
             </div>
             <div className="right">
                 <img src={statue} alt="" />
-                <h3>Collection/Reinassance</h3>
+                <br />
+                <h3>Collection</h3>
             </div>
             </div>
         </div>
