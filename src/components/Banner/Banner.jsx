@@ -9,7 +9,7 @@ const Banner = () => {
             <div className="container">
                 <img src={busto} alt="" />
                 <div className="text">
-                    <h1>Hidden by History and Revealed in the Present</h1>
+                    <h1>Explore the stories behind the sculptures, their creators, and the eras in which they were made.</h1>
                 </div>
             </div>
         </div>

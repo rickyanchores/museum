@@ -11,7 +11,6 @@ const Home = () => {
             <h1>A Picture Is A Poem
                 Without Words
             </h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, vel iure doloremque pariatur dignissimos quis.</p>
             <button className='btn'>Read More</button>
         </div>
         <div className="right">
