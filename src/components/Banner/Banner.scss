@@ -1,6 +1,7 @@
 .Banner{
     padding-top: 10em;
     padding-bottom: 10em;
+    margin-top: 1em;
     .container{
         display: flex;
         justify-items: space-around;
@@ -19,3 +20,20 @@
         }
     }
 }
+
+
+@media only screen and (max-width: 600px) {
+    .Banner{
+        .container{
+            flex-wrap: wrap;
+            img{
+                width: 100%;
+            }
+            .text{
+                font-size: 30px;
+                padding: 1em;
+                margin: 0;
+            }
+        }
+    }
+  }

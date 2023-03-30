@@ -45,3 +45,20 @@
     }
 }
 
+@media only screen and (max-width: 600px) {
+    .Home{
+        //background: red;
+        height: auto;
+        flex-wrap: wrap;
+        img{
+            width: 100%;
+        }
+        .contacts-snippet{
+            margin: 0;
+            padding: 0;
+        }
+        .left{
+            margin: 0;
+        }
+    }
+  }
